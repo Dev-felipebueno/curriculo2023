@@ -206,7 +206,27 @@ body {
     }
 }
 
-@media(max-width: 373px){
+@media(max-width: 480px) {
+    .apresentacao{
+        padding: 0%;
+    }
+
+    .links{
+        padding: 0% 22% 5% 22%;
+    }
+}
+
+@media(max-width: 410px) {
+    .apresentacao{
+        padding: 0%;
+    }
+
+    .links{
+        padding: 0% 19% 5% 19%;
+    }
+}
+
+@media(max-width: 381px){
     .cabecalho{
         flex-direction: column;
         margin: 0% 18%;
